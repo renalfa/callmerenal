@@ -87,7 +87,7 @@ const Hero = () => {
   return (
     <div className="relative w-screen overflow-x-hidden h-dvh">
       {isLoading && (
-        <div className="flex-center absolute z-[100] h-dvh w-screen overflow-hidden bg-violet-50">
+        <div className="flex-center absolute z-100 h-dvh w-screen overflow-hidden bg-violet-50">
           <div className="three-body">
             <div className="three-body__dot"></div>
             <div className="three-body__dot"></div>
@@ -148,7 +148,7 @@ const Hero = () => {
 
         <div className="absolute top-0 left-0 z-40 size-full">
           <div className="px-5 mt-24 sm:px-10">
-            <h1 className="text-blue-100 special-font hero-heading md:!text-[10rem]">
+            <h1 className="text-blue-100 special-font hero-heading md:text-[10rem]!">
               Fr<b>o</b>nt<b>e</b>nd D<b>e</b>v
             </h1>
             <p className="max-w-xl mb-5 text-blue-100 font-robert-regular">

@@ -40,7 +40,7 @@ const Contact = () => {
 
           <AnimatedTitle
             title="let&#39;s cr<b>e</b>ate the<br />amazing digital<br /> ex<b>e</b>rience t<b>o</b>gether."
-            className="special-font !md:text-[6rem] w-full font-zentry !text-5xl !font-black !leading-[.9]"
+            className="special-font !md:text-[6rem] w-full font-zentry text-5xl! font-black! leading-[.9]!"
           />
 
           <Button title="contact me" containerClass="mt-10 cursor-pointer" />

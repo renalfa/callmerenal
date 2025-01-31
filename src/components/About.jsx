@@ -40,7 +40,7 @@ const About = () => {
 
         <AnimatedTitle
           title="Bl<b>e</b>nding creativity and technology to deliver impactful s<b>o</b>lutions."
-          containerClass="mt-5 !text-black text-center"
+          containerClass="mt-5 text-black! text-center"
         />
 
         <p className="font-general text-sm uppercase md:text-[10px]">with</p>
@@ -51,7 +51,7 @@ const About = () => {
               src="/react.svg"
               title="Re<b>a</b>ct JS"
               value={89}
-              className="text-transparent bg-clip-text bg-gradient-to-b from-blue-400 via-blue-300/75 to-white special-font hero-heading "
+              className="text-transparent bg-clip-text bg-linear-to-b from-blue-400 via-blue-300/75 to-white special-font hero-heading "
             />
           </BentoTilt>
           <BentoTilt className="relative w-full overflow-hidden mb-7">
@@ -59,7 +59,7 @@ const About = () => {
               src="/next.svg"
               title="N<b>e</b>xt JS"
               value={86}
-              className="text-transparent bg-clip-text bg-gradient-to-b from-[#110422] via-[#1e0d40] to-[#2f185f] special-font hero-heading "
+              className="text-transparent bg-clip-text bg-linear-to-b from-[#110422] via-[#1e0d40] to-[#2f185f] special-font hero-heading "
             />
           </BentoTilt>
         </div>
