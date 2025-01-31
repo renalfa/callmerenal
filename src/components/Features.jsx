@@ -65,14 +65,23 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
 const Features = () => (
   <section className="bg-black pb-52">
     <div className="container px-3 mx-auto md:px-10">
-      <div className="px-5 py-32">
-        <p className="text-lg font-circular-web text-blue-50">
-          Into the Metagame Layer
+      <div className="px-5 py-24">
+        <p className="text-lg text-center text-blue-50 font-general">
+          About Me
         </p>
-        <p className="max-w-md text-lg opacity-50 font-circular-web text-blue-50">
-          Immerse yourself in a rich and ever-expanding universe where a vibrant
-          array of products converge into an interconnected overlay experience
-          on your world.
+        <p className="max-w-lg mx-auto text-sm opacity-50 font-general md:text-xs text-blue-50">
+          I am a passionate{" "}
+          <strong className="text-yellow-300">Frontend Developer</strong> with a
+          love for creating user-friendly and visually appealing web and mobile
+          applications. With expertise in{" "}
+          <strong className="text-yellow-300">
+            React, Next.js, and TypeScript,
+          </strong>{" "}
+          I craft interactive and responsive interfaces that provide seamless
+          experiences. Beyond coding, I enjoy gaming, exploring virtual worlds,
+          and connecting with others through shared adventures. My mission is to
+          combine my technical skills and creativity to bring impactful digital
+          solutions to life.
         </p>
       </div>
 
@@ -81,10 +90,10 @@ const Features = () => (
           src="videos/feature-1.mp4"
           title={
             <>
-              radia<b>n</b>t
+              My H<b>obies</b>
             </>
           }
-          description="A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure."
+          description="Gaming is my ultimate hobby, where I dive into immersive worlds, conquer challenges, and connect with vibrant communities. From strategic quests to adrenaline-filled adventures, it’s a space where creativity, competition, and fun come together."
           isComingSoon
         />
       </BentoTilt>
